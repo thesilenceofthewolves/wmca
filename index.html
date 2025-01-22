@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="task">
+            <p id="heading">Add functionality so user have option
+            to switch to dark mode which will make the background of this text black, text color will be white and
+            bold!! <strong>Also add transition with delay of 2s.</strong> </p>
+            <button class = "dark" onclick="setDarkMode()">Dark mode</button>
+            <button class = "light" onclick="setLightMode()">Normal mode</button>
+    </div>
+    <div class="task1">
+        <p><strong>For this section you have couple tasks to perform for this form, work one task at the time</strong></p>
+    <p>Add functionality, once data is submitted to change color of the button and for data not to be lost, so it will remain in the input field</p>
+    <p>Add functionality to save the data, so you can read input in the console as well</p>
+    <p>Write a function called showMessage() that is triggered when the form is submitted.<br>
+        The function should:<br>
+        Access the value entered by the user in the input field.<br>
+        <br>
+        
+        Remember to stop the web page from refreshing when the form is submitted.</p>
+        <h5>Username</h5>
+        <form class="input" onsubmit="showMessage(event)">
+            <input id="login" type="text">
+            <button id="submit-btn" class="btn" type="submit">Submit</button>
+        </form>
+        
+    </div>
+    <div class="task2">
+        <p>Add functionality to the id="answer", and add onclick attribute to button so user can read following answer
+            :"JavaScript is a scripting or programming language that allows you to implement complex features on web
+            pages"</p>
+        <p>What is JavaScript?</p>
+        
+        <div id="answer">
+            <button onclick="showMore()"> See answer</button>
+        </div>
+    </div>
+    <div class="task3">
+        <p>Build functionality to convert Sterling Pounds to Euro 1pound = 1.15eur. Make sure ti display the result in the h2 tag bellow.</p>
+        <form id="conversion-form">
+            <p>Enter amount in pounds</p>
+            <input type="number" name="pounds-amount" id="pounds-amount" title="Please enter amount">
+            <button type="submit">Submit</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+    <div class="task4">
+        <p>Using javascript move blue box 100px to the right and 400px to the bottom to cover the red box</p>
+        <div id="boxs">
+            <div id="blue-box"></div>
+            <div id="red-box"></div>
+        </div>
+        <button onclick="move()">Move</button>
+        
+    </div>
+    <div class="task5">
+        <p>Build functionality when the "Close" button is clicked, clear the page of all HTML and display the message “Thank you Marko"</p>
+       
+        <button id="juhu">Close</button>
+            
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
