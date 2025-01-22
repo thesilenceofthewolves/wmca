@@ -1,6 +1,6 @@
 # Mini JavaScript Project
 
-**Live Link:** [Click here to view the project](https://tmarkec.github.io/wmca_test1/)
+**Live Link:** [Click here to view the project](https://tmarkec.github.io/wmca/)
 
 ---
 
