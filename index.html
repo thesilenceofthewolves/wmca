@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,7 +46,7 @@
     </div>
     <div class="task3">
         <p>Build functionality to convert Sterling Pounds to Euro 1pound = 1.15eur. Make sure ti display the result in the h2 tag bellow.</p>
-        <form id="conversion-form">
+        <form id="conversion-form" onsubmit="showAnswer(event)">
             <p>Enter amount in pounds</p>
             <input type="number" name="pounds-amount" id="pounds-amount" title="Please enter amount">
             <button type="submit">Submit</button>
@@ -64,7 +65,7 @@
     <div class="task5">
         <p>Build functionality when the "Close" button is clicked, clear the page of all HTML and display the message “Thank you Marko"</p>
        
-        <button id="juhu">Close</button>
+        <button id="juhu" onclick='clearPageAndShowMessage()'>Close</button>
             
     </div>
     <script src="script.js"></script>
@@ -72,3 +73,4 @@
 </body>
 
 </html>
+
